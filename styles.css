@@ -1,0 +1,41 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:gainsboro;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0; /* Add padding for visual separation, adjust as needed */
+    background-color: #3498db; /* Change this color to your desired background color */
+    color: #fff; /* Set the text color to white for better visibility */
+}
+
+h2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    margin-top: -20px;
+}
+
+h2 li {
+    display: inline-block;
+}
+
+h2 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+h2 li a:hover {
+    background-color: #111;
+}
